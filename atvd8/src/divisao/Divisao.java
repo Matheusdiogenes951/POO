@@ -1,3 +1,5 @@
+package divisao;
+
 import java.util.Scanner;
 
 public class Divisao {

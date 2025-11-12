@@ -1,3 +1,5 @@
+package equacao;
+
 import java.util.Scanner;
 
 public class EquacaoSegundoGrau {
