@@ -2,7 +2,6 @@ package CONFIG;
 
 public class Principal {
    public static void main(String[] args) {
-	 Produto p0;
 	 Produto p1 = new Produto();
 	 Produto p2 = new Produto();
 	 p1.setQuantidadedeEstoque(60);
