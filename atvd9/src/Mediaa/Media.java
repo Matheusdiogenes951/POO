@@ -9,17 +9,17 @@ public class Media {
         CalculadoraMedia calc = new CalculadoraMedia();
 
         try {
-            System.out.print("Digite a primeira nota: ");
+            System.out.print("Diga a primeira nota: ");
             double n1 = sc.nextDouble();
 
-            System.out.print("Digite a segunda nota: ");
+            System.out.print("Diga a segunda nota: ");
             double n2 = sc.nextDouble();
 
-            System.out.print("Digite a terceira nota: ");
+            System.out.print("Diga a terceira nota: ");
             double n3 = sc.nextDouble();
 
             double media = calc.calcularMedia(n1, n2, n3);
-            System.out.println("A média das notas é: " + media);
+            System.out.println("A média e: " + media);
 
         } catch (NotaInvalidaException e) {
             System.out.println("Erro: " + e.getMessage());

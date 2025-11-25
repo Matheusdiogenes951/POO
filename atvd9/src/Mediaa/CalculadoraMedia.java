@@ -4,7 +4,7 @@ public class CalculadoraMedia {
 
     private double validarNota(double nota) throws NotaInvalidaException {
         if (nota < 0 || nota > 10) {
-            throw new NotaInvalidaException("Nota inválida: " + nota + ". A nota deve estar entre 0 e 10.");
+            throw new NotaInvalidaException("Nota inválida: " + nota + ". A nota deve estar entre 0 e 10, se vc conseguiu tirar menos que isso meus pesames.");
         }
         return nota;
     }
