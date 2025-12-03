@@ -18,7 +18,7 @@ public class Produto {
 	  return this.preco;
   }
   public int getQuantidadedeEstoque() {
-	  return this.getQuantidadedeEstoque();
+	  return this.quantidadeEstoque;
   }
   public void setQuantidadedeEstoque(int quantidadedeEstoque) {
 	  if(quantidadedeEstoque>0) {
